@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="MODU — เครื่องมือดิจิทัลพร้อมใช้ สำหรับชีวิตและงานของคุณ">
+  <meta name="theme-color" content="#191919"><title>MODU — Modified by You</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23191919'/%3E%3Ctext x='9' y='46' fill='white' font-family='Arial' font-size='42' font-weight='bold'%3Em%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css"><script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="demo-bar"><span>INTERACTIVE PROTOTYPE</span> พื้นที่ทดลอง • ไม่มีการชำระเงินจริงหรือส่งคำขอออกนอกเครื่อง <button id="reset">รีเซ็ตเดโม ↺</button></div>
+  <header class="header"><a href="#market" class="logo" aria-label="MODU หน้าแรก">modu<span>✳</span></a><nav aria-label="เมนูหลัก"><a href="#market" data-page="market">สำรวจสินค้า</a><a href="#library" data-page="library">สินค้าของฉัน <span id="owned-count" class="count">0</span></a><a href="#requests" data-page="requests">คำขอปรับแต่ง</a></nav><div class="header-end"><button class="icon-btn" id="wishlist" aria-label="สินค้าที่บันทึก">♡ <span id="wish-count">0</span></button><a class="seller-link" href="#studio">Seller studio ↗</a><span class="avatar">N</span></div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer><a class="logo" href="#market">modu<span>✳</span></a><p>Modified by You. Made for your everyday.<br><small>เครื่องมือดี ๆ สำหรับชีวิตในแบบของคุณ</small></p><span>ต้นแบบเพื่อสาธิต · 2026<br><small>ผู้ขาย รีวิว และยอดขายทั้งหมดเป็นข้อมูลสมมติ</small></span></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><button class="close" aria-label="ปิดหน้าต่าง">×</button><div id="modal-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body></html>
