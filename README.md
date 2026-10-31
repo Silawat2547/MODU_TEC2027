@@ -2,20 +2,6 @@
 
 ต้นแบบตลาด Digital Product โทนดำ–ขาว พร้อมตัวอย่าง Spreadsheet และระบบคำขอปรับแต่งจากผู้ขายเดิม
 
-## เปิดทันที
-แตก ZIP แล้วดับเบิลคลิก `index.html` ด้วย Chrome / Edge / Firefox
-ไฟล์นี้รวม CSS, JavaScript และภาพ SVG ไว้แล้ว ไม่ต้องติดตั้ง Node หรือเชื่อมต่อ CDN
-ภาพ Spreadsheet เป็นภาพประกอบที่สร้างจากข้อมูลสมมติ ไม่ใช่ภาพหน้าจอจากโปรแกรม Excel จริง
-
-## เปิดเว็บบน GitHub Pages
-1. สร้าง GitHub repository เช่น `modu-marketplace`
-2. แตก ZIP และอัปโหลดไฟล์ด้านใน โดยให้ `index.html` อยู่หน้าหลักของ repository (อย่าอัปโหลด ZIP อย่างเดียว)
-3. Commit ไปยัง branch `main`
-4. ไปที่ Settings → Pages → Build and deployment
-5. เลือก Source: Deploy from a branch / Branch: main / Folder: /(root) → Save
-6. รอ GitHub แสดง URL เช่น https://USERNAME.github.io/modu-marketplace/
-7. หากยังเห็นหน้าเก่า ให้กด Ctrl+Shift+R และตรวจว่าเลือก branch/folder ถูกต้อง
-
 ## ฟังก์ชันที่ทดลองได้
 - ค้นหา กรองหมวด ประเภทไฟล์ ราคา และเรียงสินค้า
 - ดูสินค้า โปรไฟล์ผู้ขาย ทดลองเครื่องมือ และบันทึกรายการโปรด
